@@ -28,6 +28,12 @@ p {
   margin: 15px;
 }
 
+dl {
+font-family: perpetua;
+  font-size: 120%;
+  margin: 15px;
+}
+
 img {
   border: 2px solid RebeccaPurple;
 }
