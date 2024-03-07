@@ -66,6 +66,11 @@ li a:hover:not(.active) {
 }
 
 .contact {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
   background-color: RebeccaPurple;
 } 
 .contact:hover {
