@@ -65,7 +65,11 @@ li a:hover:not(.active) {
   cursor: pointer;
 }
 
-.contact {background-color: RebecccaPurple} 
-.contact:hover {background-color: mediumpurple;}
+.contact {
+  background-color: RebecccaPurple;
+} 
+.contact:hover {
+  background-color: mediumpurple;
+}
 
 
