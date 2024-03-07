@@ -16,6 +16,12 @@ h1 {
   font-size: 300%
 }
 
+h2 {
+  color: RebeccaPurple;
+  font-family: verdana;
+  font-size: 200%
+}
+
 p {
   font-family: perpetua;
   font-size: 120%;
