@@ -18,6 +18,47 @@
   margin-left: auto;
   margin-right: auto;
     }
+
+.dropbtn {
+  background-color: Indigo;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+      
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: RebeccaPurple;
+}
   </style>
 
   
@@ -38,9 +79,18 @@
 
   <h1><ins>Cats</ins></h1>
   <hr>
- <button class="contact" onclick="window.location.href='mailto:heimberger.1@themetroschool.org';">
-      Contact Us
-    </button>
+<p>Want a cat that best fits with you? Click one.</p>
+<div class="dropdown">
+  <button class="dropbtn">Personalities</button>
+  <div class="dropdown-content">
+  <a href="Cats.html">1. Calm Cats</a>
+  <a href="Cats2.html">2. Energetic Cats</a>
+  <a href="Cats2.html">3. Curious Cats</a>
+  </div>
+</div>
+   <p>1 - <strong>2</strong> - 3</p>
+   
+<h2>Energetic Cats</h2> 
   <hr>
   <img src=https://sepicat.com/wp-content/uploads/2018/05/shutterstock_1051309439.png.webp width=300 alt= "Jessica">
 <h2>Jessica</h2>
@@ -48,6 +98,7 @@
   <dt>     • Female</dt>
   <dt>     • 8 years old</dt>
   <dt>     • Shedding: Medium</dt>
+  <dt>     • Sociability: Medium</dt>
   <dt>     • Jessica is a cute cat with a heart of gold. She loves snuggling, and is comfortable around people. She is the perfect cat for someone who like a slower pace.</dt>
 </dl>
   
@@ -58,6 +109,7 @@
   <dt>     • Males</dt>
   <dt>     • 5 years old</dt>
   <dt>     • Shedding: High</dt>
+   <dt>     • Sociability: Medium</dt>
   <dt>     • Oliver is a very fluffy and sassy cat. While he does have a habit of sleeping on top of people's shoes, he loves being held, and eating food. He loves children, so he would be a perfect family cat.</dt>
 </dl>
 
@@ -68,15 +120,29 @@
   <dt>     • Males</dt>
   <dt>     • 7 months old</dt>
   <dt>     • Shedding: Low</dt>
+   <dt>     • Sociability: Low</dt>
   <dt>     • James is a very calm and polite kitten. He likes roaming, being held, and hanging out with people. He is a great cat for people who want a friend to hang out with them.  </dt>
 </dl>
 
 <br>
+ <hr>
+<p>Want a cat that best fits with you? Click one.</p>
+<div class="dropdown">
+  <button class="dropbtn">Personalities</button>
+  <div class="dropdown-content">
+  <a href="Cats.html">1. Calm Cats</a>
+  <a href="Cats2.html">2. Energetic Cats</a>
+  <a href="Cats2.html">3. Curious Cats</a>
+  </div>
+</div>
+   <p>1 - <strong>2</strong> - 3</p>
 <br>
 <br>
-
+<br>   
+<br>
   
 
 </body>
 
 </html>
+
