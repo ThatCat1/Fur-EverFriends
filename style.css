@@ -92,6 +92,14 @@ li a:hover:not(.active) {
   margin-left: auto;
   margin-right: auto;
     }
+.contact1 {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: RebeccaPurple;
+    }
 
 .dropbtn {
   background-color: Indigo;
