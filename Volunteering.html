@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+  <title>Fur-Ever Friends Newsletter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+  <style>
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Cats.html">Cats</a></li>
+  <li><a href="Dogs.html">Dogs</a></li>
+  <li><a href="OtherPets.html">Other Pets</a></li>
+  <li><a href="NoPetLeft.html">The "No Pet Left Behind" Project</a></li>
+  <li><a href="AboutUsPage.html">About Us</a></li>
+</ul>
+
+  <h1><ins>Volunteering</ins></h1>
+  <hr>
+<div class="container">
+  <form action="/action_page.php">
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Kat Louver">
+
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="example@email.cat">
+
+<label style=font-family:perpetua;font-size:115%;margin:15px;>We have two types of emails: Fur-Ever Friends, and the Pet Post. 
+  <br><br>  Fur-Ever Friends emails are about the organization, and our events; pet adoption events, pet supply drives, and any other important information you need to know about us. 
+  <br>     •  These emails tend to go out once every 3 weeks
+  <br><br>  Pet Post Emails are about the things we find interesting, and think you might as well as a pet owner and/or animal lover. These emails usually contain a few pices of information or articles, and have something for everyone. 
+  <br>     •  These emails tend to go out once every 1.5 weeks
+  <br><br>  We are committed to not clogging up your email with spam and junk you don't need, but giving you something that is relevant to you. 
+</label>
+    
+    <br>
+    <br>
+    <br>
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="temail">What type of emails would you like to recieve? Fur-Ever Friends, Pet Post or both?</label>
+    <select id="temail" name="typeofemail">
+      <option value="Select">Select One</i></option>
+      <option value="Both">Both, I like to be informed on <i>everything</i></option>
+      <option value="FurEverFriends">Just Fur-Ever Friends, I have enough emails to sort through</option>
+      <option value="PetPost">Just Pet Post, I just like looking at picture of cute animals (valid) </option>
+    </select>
+
+  
+    <button class="contact1" onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Thank you for subscribing to our email newsletter!");
+}
+</script>
+  </form>
+</div>
+  
+<br>
+<br>
+<br>   
+<br>
+  
+
+
+
+
+
+  
+</body>
+
+</html>
+
 
