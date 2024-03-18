@@ -59,13 +59,7 @@ input[type=submit]:hover {
   <hr>
 <div class="container">
   <form action="/action_page.php">
-    <label style=font-family:perpetua;font-size:125%;margin:15px; for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Kat Louver">
-
-    <label style=font-family:perpetua;font-size:125%;margin:15px; for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="example@email.cat">
-
-<label style=font-family:perpetua;font-size:115%;margin:15px;>We have two types of emails: Fur-Ever Friends, and the Pet Post. 
+    <label style=font-family:perpetua;font-size:115%;margin:15px;>We have two types of emails: Fur-Ever Friends, and the Pet Post. 
   <br><br>  Fur-Ever Friends emails are about the organization, and our events; pet adoption events, pet supply drives, and any other important information you need to know about us. 
   <br>     •  These emails tend to go out once every 3 weeks
   <br><br>  Pet Post Emails are about the things we find interesting, and think you might as well as a pet owner and/or animal lover. These emails usually contain a few pices of information or articles, and have something for everyone. 
@@ -76,6 +70,26 @@ input[type=submit]:hover {
     <br>
     <br>
     <br>
+    
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="ExampleFirst">
+
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="ExampleLast">
+
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="example@email.cat">
+
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="area">What general area re you in?</label>
+    <input type="text" id="area" name="area" placeholder="City, state and zip code, ex: Citysville, OH, 12345">
+
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="age">Are you 18 or older</label>
+    <select id="age" name="age">
+      <option value="Select">Select One</i></option>
+      <option value="Yes18">Yes, I am over the age of 18</option>
+      <option value="No18">No, I am not over the age of 18</option>
+    </select>
+    
     <label style=font-family:perpetua;font-size:125%;margin:15px; for="temail">What type of emails would you like to recieve? Fur-Ever Friends, Pet Post or both?</label>
     <select id="temail" name="typeofemail">
       <option value="Select">Select One</i></option>
