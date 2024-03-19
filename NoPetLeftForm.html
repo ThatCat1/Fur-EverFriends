@@ -83,20 +83,24 @@ input[type=submit]:hover {
 <label for="pdescription">Tell us a little about your pet</label>
     <textarea id="pdescription" name="petdescription" placeholder="Write here" style="height:200px"></textarea>
     
-    <label style=font-family:perpetua;font-size:125%;margin:15px; for="temail">What type of emails would you like to recieve? Fur-Ever Friends, Pet Post or both?</label>
-    <select id="temail" name="typeofemail">
+    <label style=font-family:perpetua;font-size:125%;margin:15px; for="why">May I ask why you are filling out this form?</label>
+    <select id="why" name="why">
       <option value="Select">Select One</i></option>
-      <option value="Both">Both, I like to be informed on <i>everything</i></option>
-      <option value="FurEverFriends">Just Fur-Ever Friends, I have enough emails to sort through</option>
-      <option value="PetPost">Just Pet Post, I just like looking at picture of cute animals (valid) </option>
+      <option value="Talk">Just to talk about it</option>
+      <option value="YesMe">To drop off my own pet</option>
+      <option value="YesNotMe">To drop off a pet I found</option>
+      <option value="NoSay">Prefer not to say</option>
     </select>
 
-  
+<label style=font-family:perpetua;font-size:115%;margin:15px;>
+  Remember, it costs nothing to reach out. Feel free to just talk to us. Filling out this form isn't a binding commitment. 
+</label>
+    
     <button class="contact1" onclick="myFunction()">Submit</button>
 
 <script>
 function myFunction() {
-  alert("Thank you for subscribing to our email newsletter!");
+  alert("Thank you for filling his form out. We will be in contact with you in 1-2 days.");
 }
 </script>
   </form>
